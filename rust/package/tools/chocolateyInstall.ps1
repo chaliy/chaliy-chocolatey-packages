@@ -1,1 +1,1 @@
-Install-ChocolateyPackage 'rust' 'exe' '/VERYSILENT' 'http://static.rust-lang.org/dist/rust-0.8-install.exe'
+Install-ChocolateyPackage 'rust' 'exe' '/VERYSILENT' 'http://static.rust-lang.org/dist/rust-0.9-install.exe'

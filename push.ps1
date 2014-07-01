@@ -1,5 +1,5 @@
 param(
-    [ValidateSet('rust', 'gnuplot', 'thrift')]
+    [ValidateSet('rust', 'gnuplot', 'thrift', 'openldap')]
     [Parameter(Mandatory = $true)]
     [ValidateNotNullOrEmpty()]
     [string]$Package,

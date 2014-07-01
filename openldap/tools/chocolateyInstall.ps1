@@ -1,0 +1,1 @@
+Install-ChocolateyPackage 'openldap' 'exe' '/VERYSILENT' 'http://www.userbooster.de/downloadablecontent/freeware/OpenLDAPforWindows.exe'

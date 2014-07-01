@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>openldap</id>
+    <version>2.4.39</version>
+    <title>OpenLDAP for Windows</title>
+    <authors>OpenLDAP Project</authors>
+    <owners>Mike Chaliy</owners>
+    <licenseUrl>http://www.openldap.org/software/release/license.html</licenseUrl>
+    <projectUrl>http://www.openldap.org/</projectUrl>
+    <iconUrl>https://raw.github.com/chaliy/chaliy-chocolatey-packages/master/openldap/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>OpenLDAP for Windows package is based on OpenLDAP 2.4.34 and includes most of the features available on Linux. The default backend is Berkeley DB with SSL support. OpenLDAP for Windows features complete Unicode support. The package has been tested on Windows Server 2003, Windows Server 2008, Windows Server 2012, Windows Vista, Windows 7 and Windows 8.</description>
+    <summary>OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol.</summary>
+    <tags>LDAP OpenLDAP</tags>    
+  </metadata>
+</package>

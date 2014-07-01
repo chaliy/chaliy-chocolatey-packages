@@ -1,5 +1,5 @@
 param(
-    [ValidateSet('rust', 'gnuplot')]
+    [ValidateSet('rust', 'gnuplot', 'thrift')]
     [Parameter(Mandatory = $true)]
     [ValidateNotNullOrEmpty()]
     [string]$Package,
@@ -34,8 +34,8 @@ Are you sure you want to push $PackagePath to chocolatey?
             {
                 "Y" { 
                     Write-Host Push $PackagePath
-                    #cpush $PackagePath
-                    #rm $PackagePath
+                    cpush $PackagePath
+                    rm $PackagePath
                 }
                 "" { }        
                 "N" {  }

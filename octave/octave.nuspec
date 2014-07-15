@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Octave</id>
+    <version>3.6.4</version>
+    <title>GNU Octave (Install)</title>
+    <authors>John W. Eaton</authors>
+    <owners>John W. Eaton</owners>
+    <licenseUrl>http://www.gnu.org/software/octave/</licenseUrl>
+    <projectUrl>http://www.gnu.org/software/octave/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>GNU Octave is a high-level interpreted language, primarily intended for numerical computations.</description>
+    <summary>It provides capabilities for the numerical solution of linear and nonlinear problems, and for performing other numerical experiments. It also provides extensive graphics capabilities for data visualization and manipulation. Octave is normally used through its interactive command line interface, but it can also be used to write non-interactive programs. The Octave language is quite similar to Matlab so that most programs are easily portable.</summary>
+    <releaseNotes />
+    <copyright>Octave Copyright © 1998-2013 John W. Eaton. Verbatim copying and distribution is permitted in any medium, provided this notice is preserved.</copyright>
+    <tags>octave math numerical computations</tags>
+  </metadata>
+</package>

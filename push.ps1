@@ -1,5 +1,5 @@
 param(
-    [ValidateSet('rust', 'gnuplot', 'thrift', 'openldap', 'docker')]
+    [ValidateSet('rust', 'gnuplot', 'thrift', 'openldap', 'docker', 'octave')]
     [Parameter(Mandatory = $true)]
     [ValidateNotNullOrEmpty()]
     [string]$Package,
@@ -51,3 +51,4 @@ N - Skip this operation and proceed with the next operation.
     popd
 }
 
+git add -A

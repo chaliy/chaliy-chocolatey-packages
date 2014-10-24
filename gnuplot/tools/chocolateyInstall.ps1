@@ -1,1 +1,1 @@
-Install-ChocolateyPackage 'gnuplot' 'exe' '/VERYSILENT' 'http://sourceforge.net/projects/gnuplot/files/gnuplot/4.6.0/gp460-win32-setup.exe'
+Install-ChocolateyPackage 'gnuplot' 'exe' '/VERYSILENT' 'http://sourceforge.net/projects/gnuplot/files/gnuplot/4.6.6/gp466-win32-setup.exe' 'http://sourceforge.net/projects/gnuplot/files/gnuplot/4.6.6/gp466-win64-setup.exe'

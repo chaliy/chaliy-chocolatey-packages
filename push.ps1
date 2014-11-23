@@ -32,12 +32,12 @@ Are you sure you want to push $PackagePath to chocolatey?
 "@
             switch ($Answer)
             {
-                "Y" { 
+                "Y" {
                     Write-Host Push $PackagePath
                     cpush $PackagePath
                     rm $PackagePath
                 }
-                "" { }        
+                "" { }
                 "N" {  }
                 "?" { Write-Host @"
 Y - Continue with only the next step of the operation.

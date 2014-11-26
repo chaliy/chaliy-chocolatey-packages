@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>activator</id>
+    <version>1.2.10</version>
+    <title>activator</title>
+    <authors>Typesafe</authors>
+    <owners>Mike Chaliy</owners>
+    <projectUrl>https://typesafe.com/activator</projectUrl>
+    <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <iconUrl>https://www.playframework.com/assets/images/logos/play_icon_full_color.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Typesafe Activator gets you started with the Typesafe Reactive Platform, Play Framework, Akka and Scala</summary>
+    <description>A new addition to the Typesafe Reactive Platform is Typesafe Activator, a unique, browser-based tool that helps developers get started with Typesafe technologies quickly and easily. Activator is a hub for developers wanting to build Reactive applications. Unlike previous developer-focused offerings that are delivered simply via a website, Activator breaks new ground by delivering a rich application directly to the desktop. Activator updates in real-time with new content from Typesafe and value-add third parties, helping developers engage and adopt Typesafe technologies in an entirely frictionless manner.</description>
+    <tags>activator play scala akka java</tags>
+  </metadata>
+</package>

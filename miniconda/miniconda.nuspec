@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Miniconda</id>
+    <version>3.7.0</version>
+    <title>Miniconda</title>
+    <authors>Continuum Anaytics</authors>
+    <owners>Mike Chaliy</owners>
+    <licenseUrl>https://github.com/conda/conda/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>http://conda.pydata.org/miniconda.html</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://store.continuum.io/static/img/anaconda_logo_web.png</iconUrl>
+    <description>Conda is a cross-platform, Python-agnostic binary package manager.</description>
+    <summary>Conda is a cross-platform, Python-agnostic binary package manager. It is the package manager used by Anaconda installations, but it may be used for other systems as well. Conda makes environments first-class citizens, making it easy to create independent environments even for C libraries. Conda is written entirely in Python, and is BSD licensed open source.</summary>
+    <releaseNotes />
+    <copyright>© Copyright 2014, Continuum Anaytics.</copyright>
+    <tags>conda anaconda miniconda python</tags>
+  </metadata>
+</package>

@@ -1,11 +1,4 @@
-if(-not($Env:ChocolateyBinRoot)) {
-  $BinRoot = "$Env:ChocolateyInstall\bin"
-} else {
-  $BinRoot = $Env:ChocolateyBinRoot
-}
-if (-not($BinRoot -imatch "^\w:")) {
-    $BinRoot = Join-Path $Env:SystemDrive $BinRoot
-}
+$BinRoot = Get-BinRoot
 
 $PackageName = 'Miniconda'
 $InstallerType = 'EXE'

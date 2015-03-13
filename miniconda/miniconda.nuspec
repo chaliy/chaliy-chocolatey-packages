@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Miniconda</id>
-    <version>3.7.0</version>
-    <title>Miniconda</title>
+    <id>miniconda</id>
+    <version>3.9.1</version>
+    <title>Miniconda(Python 2)</title>
     <authors>Continuum Anaytics</authors>
     <owners>Mike Chaliy</owners>
     <licenseUrl>https://github.com/conda/conda/blob/master/LICENSE.txt</licenseUrl>

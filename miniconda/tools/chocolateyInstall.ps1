@@ -2,9 +2,9 @@ $BinRoot = Get-BinRoot
 
 $PackageName = 'Miniconda'
 $InstallerType = 'EXE'
-$Url = 'http://repo.continuum.io/miniconda/Miniconda3-3.7.0-Windows-x86.exe'
-$Url64 = 'http://repo.continuum.io/miniconda/Miniconda3-3.7.0-Windows-x86_64.exe'
-$Args = "/InstallationType=AllUsers /S /D=C:\Miniconda\"
+$Url = 'https://repo.continuum.io/miniconda/Miniconda-3.9.1-Windows-x86.exe'
+$Url64 = 'https://repo.continuum.io/miniconda/Miniconda-3.9.1-Windows-x86_64.exe'
+$Args = "/InstallationType=AllUsers /S /D=$BinRoot\Miniconda\"
 $ValidExitCodes = @(0)
 
 Install-ChocolateyPackage "$PackageName" "$InstallerType" "$Args" "$Url" "$Url64"  -validExitCodes $ValidExitCodes

@@ -1,6 +1,6 @@
 $BinRoot = Get-BinRoot
 
-$PackageName = 'Miniconda'
+$PackageName = 'miniconda'
 $InstallerType = 'EXE'
 $Url = 'https://repo.continuum.io/miniconda/Miniconda-3.9.1-Windows-x86.exe'
 $Url64 = 'https://repo.continuum.io/miniconda/Miniconda-3.9.1-Windows-x86_64.exe'

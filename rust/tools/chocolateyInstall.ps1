@@ -1,4 +1,8 @@
-$Url = 'https://static.rust-lang.org/dist/rust-1.0.0-alpha.2-i686-pc-windows-gnu.exe'
-$Url64 = 'https://static.rust-lang.org/dist/rust-1.0.0-alpha.2-x86_64-pc-windows-gnu.exe'
+$PackageName = 'rust'
+$InstallerType = 'msi'
+$Url = 'https://static.rust-lang.org/dist/rust-1.0.0-i686-pc-windows-gnu.msi'
+$Url64 = 'https://static.rust-lang.org/dist/rust-1.0.0-x86_64-pc-windows-gnu.msi'
+$SilentArgs = '/quiet'
+$ValidExitCodes = @(0,3010)
 
-Install-ChocolateyPackage 'rust' 'exe' '/VERYSILENT' "$Url" "$Url64"
+Install-ChocolateyPackage "$PackageName" "$InstallerType" "$SilentArgs" "$Url" "$Url64"  -validExitCodes $ValidExitCodes

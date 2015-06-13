@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>boot2docker</id>
-    <version>1.5.0</version>
+    <version>1.6.2</version>
     <title>Boot2Docker</title>
     <authors>Boot2Docker</authors>
     <owners>Mike Chaliy</owners>
@@ -14,11 +14,12 @@
 Docker - An open platform for distributed applications for developers and sysadmins.</description>
     <summary>boot2docker is a lightweight Linux distribution based on Tiny Core Linux made specifically to run Docker containers</summary>
     <tags>boot2docker docker VM</tags>
-    <releaseNotes><![CDATA[<ul class="task-list">
-<li>Boot2Docker 1.5.0 (Docker v1.5.0, Linux v3.18.5)</li>
-<li>Boot2Docker Management Tool v1.5.0</li>
-<li>VirtualBox v4.3.20-r96997</li>
-<li>msysGit v1.9.5-preview20141217</li>
+    <releaseNotes><![CDATA[<ul>
+<li>Boot2Docker v1.6.2</li>
+<li>Boot2Docker Management Tool v1.6.2</li>
+<li>Docker v1.6.2</li>
+<li>VirtualBox v4.3.28-r100309</li>
+<li>msysGit v1.9.5-preview20150319</li>
 </ul>]]></releaseNotes>
   </metadata>
 </package>

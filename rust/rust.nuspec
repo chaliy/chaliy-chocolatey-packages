@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>rust</id>
-    <version>1.4.0</version>
+    <version>1.5.0</version>
     <title>Rust</title>
     <authors>Mozilla</authors>
-    <owners>Mike Chaliy</owners>
+    <owners>Mike Chaliy, Francisco Gómez</owners>
     <licenseUrl>https://github.com/mozilla/rust/blob/master/LICENSE-MIT</licenseUrl>
     <projectUrl>https://www.rust-lang.org/</projectUrl>
     <iconUrl>http://www.rust-lang.org/logos/rust-logo-128x128-blk.png</iconUrl>

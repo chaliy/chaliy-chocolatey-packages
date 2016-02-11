@@ -2,24 +2,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>boot2docker</id>
-    <version>1.6.2</version>
+    <version>1.8.0</version>
     <title>Boot2Docker</title>
     <authors>Boot2Docker</authors>
     <owners>Mike Chaliy</owners>
     <licenseUrl>https://github.com/boot2docker/windows-installer/blob/master/LICENSE</licenseUrl>
-    <projectUrl>http://boot2docker.io/</projectUrl>
-    <iconUrl>http://www.docker.com/static/img/nav/docker-logo-loggedout.png</iconUrl>
+    <projectUrl>http://boot2docker.io/</projectUrl>    
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>boot2docker is a lightweight Linux distribution based on Tiny Core Linux made specifically to run Docker containers. It runs completely from RAM, weighs ~27MB and boots in ~5s (YMMV).
 Docker - An open platform for distributed applications for developers and sysadmins.</description>
     <summary>boot2docker is a lightweight Linux distribution based on Tiny Core Linux made specifically to run Docker containers</summary>
     <tags>boot2docker docker VM</tags>
-    <releaseNotes><![CDATA[<ul>
-<li>Boot2Docker v1.6.2</li>
-<li>Boot2Docker Management Tool v1.6.2</li>
-<li>Docker v1.6.2</li>
-<li>VirtualBox v4.3.28-r100309</li>
-<li>msysGit v1.9.5-preview20150319</li>
-</ul>]]></releaseNotes>
+    <releaseNotes><![CDATA[
+This project (the boot2docker Windows Installer) is officially deprecated in favor of the new Docker Toolbox.
+]]></releaseNotes>
   </metadata>
 </package>

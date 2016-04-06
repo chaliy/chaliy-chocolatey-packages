@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>miniconda</id>
-    <version>3.10.1</version>
+    <version>4.0.5</version>
     <title>Miniconda (Python 2)</title>
     <authors>Continuum Anaytics</authors>
-    <owners>Mike Chaliy</owners>
+    <owners>Mike Chaliy, Mike Sarahan</owners>
     <licenseUrl>https://github.com/conda/conda/blob/master/LICENSE.txt</licenseUrl>
     <projectUrl>http://conda.pydata.org/miniconda.html</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

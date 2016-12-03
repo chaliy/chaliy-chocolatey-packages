@@ -6,7 +6,7 @@ param(
     [switch]$Confirm=$True
 )
 
-#nuget.exe setApiKey YOURS-VERY-OWN-API-KEY -Source http://chocolatey.org/
+# choco apiKey -k YOURS-VERY-OWN-API-KEY -source https://chocolatey.org/
 
 $here = (Split-Path -parent $MyInvocation.MyCommand.Definition)
 
@@ -17,7 +17,7 @@ try {
     cd $here/$Package
 
     rm *.nupkg
-    cpack
+    choco pack
 
     gci *.nupkg | %{
         $PackagePath = $_
@@ -34,7 +34,7 @@ Are you sure you want to push $PackagePath to chocolatey?
             {
                 "Y" {
                     Write-Host Push $PackagePath
-                    cpush $PackagePath
+                    choco push $PackagePath
                     rm $PackagePath
                 }
                 "" { }

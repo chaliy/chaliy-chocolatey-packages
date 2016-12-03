@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>miniconda3</id>
-    <version>4.0.5</version>
+    <version>4.2.12</version>
     <title>Miniconda (Python 3)</title>
     <authors>Continuum Anaytics</authors>
     <owners>Mike Chaliy, Mike Sarahan</owners>

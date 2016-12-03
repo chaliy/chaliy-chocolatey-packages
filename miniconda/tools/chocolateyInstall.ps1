@@ -1,14 +1,11 @@
-$packageArgs = @{
-  $PackageName = 'miniconda'
-  $InstallerType = 'EXE'
-  $Url = 'https://repo.continuum.io/miniconda/Miniconda2-4.0.5-Windows-x86.exe'
-  $Url64 = 'https://repo.continuum.io/miniconda/Miniconda2-4.0.5-Windows-x86_64.exe'
-  $Args = "/S /DC:\Miniconda"
-  $ValidExitCodes = @(0)
-  checksum      = 'c35402d272be8d410f4e8fd62905325f'
-  checksumType  = 'md5'
-  checksum64    = '6b848b2f138376fedca564edefb21096'
-  checksumType64= 'md5'
-}
-
-Install-ChocolateyPackage @packageArgs
+Install-ChocolateyPackage `
+  -PackageName 'miniconda3' `
+  -InstallerType 'EXE'  `
+  -Url 'https://repo.continuum.io/miniconda/Miniconda2-4.2.12-Windows-x86.exe' `
+  -Checksum 'f554e2300cc357f26526aba9a7adc913' `
+  -ChecksumType 'md5' `
+  -Url64 'https://repo.continuum.io/miniconda/Miniconda2-4.2.12-Windows-x86_64.exe' `
+  -Checksum64 'f78d2e149d017c3ccc691fb0586d57e4' `
+  -ChecksumType64 'md5' `
+  -SilentArgs "/S" `
+  -ValidExitCodes @(0)

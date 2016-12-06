@@ -5,5 +5,5 @@
 ```
 cd package
 cpack
-choco install package  ..
+choco install package -s ..
 ```

@@ -1,8 +1,7 @@
-$packageName = 'Octave'
-$installerType = 'EXE'
-$url = 'https://ftp.gnu.org/gnu/octave/windows/octave-4.0.0_0-installer.exe'
-$url64 = $url
-$silentArgs = "/S"
-$validExitCodes = @(0)
-
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" "$url64"  -validExitCodes $validExitCodes
+Install-ChocolateyPackage `
+  -PackageName 'octave' `
+  -InstallerType 'EXE'  `
+  -Url 'https://ftp.gnu.org/gnu/octave/windows/octave-4.2.0-w32-installer.exe' `
+  -Url64 'https://ftp.gnu.org/gnu/octave/windows/octave-4.2.0-w64-installer.exe' `
+  -SilentArgs "/S" `
+  -ValidExitCodes @(0)

@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Octave</id>
-    <version>4.0.0</version>
+    <version>4.2.0</version>
     <title>GNU Octave (MXE Install)</title>
-    <authors>John W. Eaton</authors>    
+    <authors>John W. Eaton</authors>
     <licenseUrl>http://www.gnu.org/software/octave/</licenseUrl>
     <projectUrl>http://www.gnu.org/software/octave/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -1,9 +1,15 @@
 # chaliy-chocolatey-packages
 
+## Push
+
+```
+push package
+```
+
 ## Test
 
 ```
 cd package
-cpack
+choco pack
 choco install package -s ..
 ```

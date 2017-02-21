@@ -1,1 +1,11 @@
-Install-ChocolateyPackage 'gnuplot' 'exe' '/VERYSILENT' 'http://sourceforge.net/projects/gnuplot/files/gnuplot/4.6.6/gp466-win32-setup.exe' 'http://sourceforge.net/projects/gnuplot/files/gnuplot/4.6.6/gp466-win64-setup.exe'
+Install-ChocolateyPackage `
+  -PackageName 'gnuplot' `
+  -InstallerType 'EXE'  `
+  -Url 'http://sourceforge.net/projects/gnuplot/files/gnuplot/5.0.5/gp505-win32-mingw.exe' `
+  -Checksum '80b74d79e1a8a2a84601a21efce32f53' `
+  -ChecksumType 'md5' `
+  -Url64 'http://sourceforge.net/projects/gnuplot/files/gnuplot/5.0.5/gp505-win64-mingw.exe' `
+  -Checksum64 '01046f4c3231ee16a56dc0d0e517d546' `
+  -ChecksumType64 'md5' `
+  -SilentArgs '/VERYSILENT /SUPPRESSMSGBOXES /MERGETASKS="modifypath"' `
+  -ValidExitCodes @(0)

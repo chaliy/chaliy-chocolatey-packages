@@ -1,11 +1,11 @@
 Install-ChocolateyPackage `
-  -PackageName 'miniconda3' `
+  -PackageName 'miniconda' `
   -InstallerType 'EXE'  `
-  -Url 'https://repo.continuum.io/miniconda/Miniconda2-4.2.12-Windows-x86.exe' `
-  -Checksum 'f554e2300cc357f26526aba9a7adc913' `
+  -Url 'https://repo.continuum.io/miniconda/Miniconda2-4.3.21-Windows-x86.exe' `
+  -Checksum '49e26b862472a2e05d6b5954abcdb5c4' `
   -ChecksumType 'md5' `
-  -Url64 'https://repo.continuum.io/miniconda/Miniconda2-4.2.12-Windows-x86_64.exe' `
-  -Checksum64 'f78d2e149d017c3ccc691fb0586d57e4' `
+  -Url64 'https://repo.continuum.io/miniconda/Miniconda2-4.3.21-Windows-x86_64.exe' `
+  -Checksum64 '9c98e98931b952848c7372a63e04cdc7' `
   -ChecksumType64 'md5' `
   -SilentArgs "/S" `
   -ValidExitCodes @(0)

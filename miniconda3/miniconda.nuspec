@@ -4,7 +4,7 @@
     <id>miniconda3</id>
     <version>4.3.21</version>
     <title>Miniconda (Python 3)</title>
-    <authors>Continuum Anaytics</authors>
+    <authors>Continuum Analytics</authors>
     <owners>Mike Chaliy, Mike Sarahan</owners>
     <licenseUrl>https://github.com/conda/conda/blob/master/LICENSE.txt</licenseUrl>
     <projectUrl>http://conda.pydata.org/miniconda.html</projectUrl>

@@ -2,10 +2,10 @@ Install-ChocolateyPackage `
   -PackageName 'miniconda' `
   -InstallerType 'EXE'  `
   -Url 'https://repo.continuum.io/miniconda/Miniconda2-4.3.21-Windows-x86.exe' `
-  -Checksum '49e26b862472a2e05d6b5954abcdb5c4' `
-  -ChecksumType 'md5' `
+  -Checksum '34571AA76F3ED83BB0953A1A7B7D760006F6CB82C01830780069AD5A60466510' `
+  -ChecksumType 'sha256' `
   -Url64 'https://repo.continuum.io/miniconda/Miniconda2-4.3.21-Windows-x86_64.exe' `
-  -Checksum64 '9c98e98931b952848c7372a63e04cdc7' `
-  -ChecksumType64 'md5' `
+  -Checksum64 'A06D838BEC15A8A757824175C038F9989C0B9235F925B0A7D8CA8EECC294D091' `
+  -ChecksumType64 'sha256' `
   -SilentArgs "/S" `
   -ValidExitCodes @(0)
